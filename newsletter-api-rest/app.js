@@ -35,6 +35,7 @@ app.post("/", (req,res) => {
 
     const options = {
         method: "POST",
+        // auth - API key is an example. You must enter your own to run this program.
         auth: "lucas:6f6e6b324552eb2e98170466dc318702-us6"
     }
 
@@ -61,7 +62,4 @@ app.listen(process.env.PORT || 4040, () => {
     console.log(`Online`)
 })
 
-const apiKey = `	
-6f6e6b324552eb2e98170466dc318702-us6
-`
 const listId = `027e106090`
